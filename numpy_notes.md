@@ -4,4 +4,11 @@ This README file provides a brief explanation of some fundamental functions and 
 ## NumPy (np)
 ` np.zeros `
 
-np.zeros is a NumPy function used to create an array filled with zeros. It takes the shape of the desired array as input and returns a NumPy array of that shape filled with zeros.
+` np.zeros ` is a NumPy function used to create an array filled with zeros. It takes the shape of the desired array as input and returns a NumPy array of that shape filled with zeros.
+
+```
+import numpy as np
+
+# Create a 3x3 array filled with zeros
+zeros_array = np.zeros((3, 3))
+```
