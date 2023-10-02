@@ -12,7 +12,7 @@ import numpy as np
 # Create a 3x3 array filled with zeros
 zeros_array = np.zeros((3, 3))
 ```
-np.ones
+`np.ones`
 
 np.ones is similar to np.zeros, but it creates an array filled with ones instead of zeros.
 
