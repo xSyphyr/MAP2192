@@ -45,8 +45,7 @@ import numpy as np
 evenly_spaced_values = np.linspace(0, 1, 10)
 ```
 
-Matplotlib (plt)
-plt.imshow
+`Matplotlib (plt) plt.imshow`
 
 plt.imshow is a function from the Matplotlib library used for displaying images or 2D arrays as images. It's often used for data visualization and image plotting.
 
@@ -62,8 +61,7 @@ plt.show()
 
 plt.plot is a versatile function for creating line plots and scatter plots. It's commonly used for visualizing data trends and relationships.
 
-python
-
+```python
 import matplotlib.pyplot as plt
 
 # Create a simple line plot
@@ -75,5 +73,6 @@ plt.xlabel('X-axis')
 plt.ylabel('Y-axis')
 plt.title('Simple Line Plot')
 plt.show()
+```
 
 These are some essential functions and concepts from NumPy and Matplotlib. NumPy is a powerful library for numerical operations, while Matplotlib is a versatile tool for data visualization. Together, they are widely used for scientific computing and data analysis in Python. Explore their documentation for more advanced usage and capabilities.
