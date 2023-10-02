@@ -6,7 +6,7 @@ This README file provides a brief explanation of some fundamental functions and 
 
 ` np.zeros ` is a NumPy function used to create an array filled with zeros. It takes the shape of the desired array as input and returns a NumPy array of that shape filled with zeros.
 
-```
+``` python
 import numpy as np
 
 # Create a 3x3 array filled with zeros
@@ -16,7 +16,7 @@ np.ones
 
 np.ones is similar to np.zeros, but it creates an array filled with ones instead of zeros.
 
-```
+``` python
 import numpy as np
 ```
 
