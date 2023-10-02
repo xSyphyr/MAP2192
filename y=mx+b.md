@@ -30,19 +30,12 @@ plt.show()
 ```
 
 In this code:
-
-    We import NumPy for numerical operations and Matplotlib for plotting.
-
-    We define the values for m (slope) and b (y-intercept) to represent the line's equation y = mx + b.
-
-    We generate a range of x values using NumPy's np.linspace() function. In this example, we create 100 equally spaced points between -5 and 5.
-
-    We calculate the corresponding y values using the equation y = mx + b.
-
-    We create the plot using plt.plot() with the x and y values. We specify the line's label, color, and linewidth.
-
-    We add labels to the x and y axes, set a title for the plot, and add a legend to display the equation of the line.
-
-    We display the plot using plt.show(). Optionally, we add a grid to the plot using plt.grid(True).
+ - We import NumPy for numerical operations and Matplotlib for plotting.
+ - We define the values for m (slope) and b (y-intercept) to represent the line's equation y = mx + b.
+ - We generate a range of x values using NumPy's np.linspace() function. In this example, we create 100 equally spaced points between -5 and 5.
+ - We calculate the corresponding y values using the equation y = mx + b.
+ - We create the plot using plt.plot() with the x and y values. We specify the line's label, color, and linewidth.
+ - We add labels to the x and y axes, set a title for the plot, and add a legend to display the equation of the line.
+ - We display the plot using plt.show(). Optionally, we add a grid to the plot using plt.grid(True).
 
 Running this code will generate a plot of the line y = 2x + 1, and you can customize the values of m and b to plot different lines.
