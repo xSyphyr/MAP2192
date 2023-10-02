@@ -4,7 +4,7 @@ This README file provides a brief explanation of some fundamental functions and 
 ## NumPy (np)
 ` np.zeros `
 
-` np.zeros ` is a NumPy function used to create an array filled with zeros. It takes the shape of the desired array as input and returns a NumPy array of that shape filled with zeros.
+np.zeros is a NumPy function used to create an array filled with zeros. It takes the shape of the desired array as input and returns a NumPy array of that shape filled with zeros.
 
 ``` python
 import numpy as np
@@ -23,42 +23,42 @@ import numpy as np
 # Create a 2x4 array filled with ones
 ones_array = np.ones((2, 4))
 
-np.eye
+`np.eye`
 
 np.eye creates a 2-D identity matrix with ones on the diagonal and zeros elsewhere. It is often used in linear algebra and for defining transformation matrices.
 
-python
-
+```python
 import numpy as np
 
 # Create a 3x3 identity matrix
 identity_matrix = np.eye(3)
+```
 
-np.linspace
+`np.linspace`
 
 np.linspace generates evenly spaced values over a specified range. It takes three arguments: start, stop, and num, where num is the number of samples to generate.
 
-python
-
+```python
 import numpy as np
 
 # Generate 10 evenly spaced values from 0 to 1
 evenly_spaced_values = np.linspace(0, 1, 10)
+```
 
 Matplotlib (plt)
 plt.imshow
 
 plt.imshow is a function from the Matplotlib library used for displaying images or 2D arrays as images. It's often used for data visualization and image plotting.
 
-python
-
+```python
 import matplotlib.pyplot as plt
 
 # Display an image or 2D array
 plt.imshow(image_or_array)
 plt.show()
+```
 
-plt.plot
+`plt.plot`
 
 plt.plot is a versatile function for creating line plots and scatter plots. It's commonly used for visualizing data trends and relationships.
 
