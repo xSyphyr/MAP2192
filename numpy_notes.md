@@ -16,9 +16,9 @@ np.ones
 
 np.ones is similar to np.zeros, but it creates an array filled with ones instead of zeros.
 
-python
-
+```
 import numpy as np
+```
 
 # Create a 2x4 array filled with ones
 ones_array = np.ones((2, 4))
