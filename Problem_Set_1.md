@@ -1,5 +1,5 @@
 # Problem Set 1
-## [Colab Notebook](https://colab.research.google.com/drive/1uopl_1hSQJcePGaWwynvVacFIRyKJQ4o?usp=sharing)
+[Colab Notebook](https://colab.research.google.com/drive/1uopl_1hSQJcePGaWwynvVacFIRyKJQ4o?usp=sharing)
 
 ## Import necessary libraries
 import numpy as np
